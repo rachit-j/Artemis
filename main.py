@@ -15,7 +15,7 @@ def main():
             continue
 
         gesture = detector.detect_gesture(frame)
-        if gesture == "ACTIVATE":
+        if gesture == "FIST":
             print("✋ Gesture detected! Activating voice input...")
             command = listen_for_command()
             if command:
