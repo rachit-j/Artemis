@@ -1,1 +1,5 @@
 .env
+__pycacehe__
+*.pyc
+__pycacehe__/*
+artemis-env
